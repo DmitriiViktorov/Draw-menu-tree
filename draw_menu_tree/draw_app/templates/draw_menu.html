@@ -1,0 +1,13 @@
+{% load menu_tags %}
+<ul>
+    {% for menu, submenus in menu_structure.items %}
+        <li>
+            <a href="{% url 'menu' main_menu menu.title %}">
+                {{ menu.title }}
+            </a>
+        </li>
+        {% if submenus %}
+            {% draw_menu main_menu submenus %}
+        {% endif %}
+    {% endfor %}
+</ul>
