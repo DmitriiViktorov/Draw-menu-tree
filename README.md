@@ -67,6 +67,9 @@ https://docs.google.com/document/d/1XTnbcXhejyGB-I2cHRiiSZqI3ElHzqDJeetwHkJbTa8/
 используется 1 запрос к базе. Каждый пункт меню при нажатии отображает меню относительно этого элемента.
 Из дополнительных модулей установлен django-debug-toolbar. Весь код выполнен только с использованием Django и Python без дополнительных библиотек.
 
+## Пример работы приложения
+
+![menu_example](/draw_menu_tree/media/Menu_01.png)
 
 ## Контактная информация
 
